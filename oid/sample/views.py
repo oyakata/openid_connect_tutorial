@@ -9,7 +9,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 
 APP_ID = r"dj0zaiZpPTd4bGlNdFN0UGFPTyZkPVlXazlaV3QzWjFsdE56QW1jR285TUEtLSZzPWNvbnN1bWVyc2VjcmV0Jng9YTc-"
-SECRET = r"=== secret ==="
+SECRET = r"754acc20690c6f6dc45d03261af20704521f825c"
 REDIRECT_URI = r"http://localhost:7001/authorization"
 
 
