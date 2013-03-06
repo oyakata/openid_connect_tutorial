@@ -52,7 +52,7 @@ def authorization(request, *args, **kwargs):
     ###########################
     dct = json.loads(response.text)
     url = "https://userinfo.yahooapis.jp/yconnect/v1/attribute?schema=openid"
-    response = requests.get(userinfo, headers={
+    response = requests.get(url, headers={
         "Authorization": "Bearer %s" % dct["access_token"]
     })
     return HttpResponse(response.text)
